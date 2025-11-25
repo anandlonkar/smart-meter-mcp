@@ -53,13 +53,13 @@ https://raw.githubusercontent.com/anandlonkar/smart-meter-mcp/main/random_unpred
 CSV format with the following columns:
 - **ESIID**: Smart meter ID (identifies household type)
 - **USAGE_DATE**: Date of usage (MM/DD/YYYY)
-- **USAGE_START_TIME**: Start time of 2-hour interval
-- **USAGE_END_TIME**: End time of 2-hour interval
+- **USAGE_START_TIME**: Start time of 4-hour interval
+- **USAGE_END_TIME**: End time of 4-hour interval
 - **USAGE_KWH**: Energy consumption in kilowatt-hours
 - **ESTIMATED_ACTUAL**: A (Actual) or E (Estimated)
 - **CONSUMPTION_SURPLUSGENERATION**: Type of reading
 
-Data is aggregated to 2-hour intervals covering a full year (365 days, 4,380 records per household).
+Data is aggregated to 4-hour intervals covering a full year (365 days, 2,190 records per household).
 
 ## Usage
 
